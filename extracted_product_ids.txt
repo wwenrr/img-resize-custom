@@ -1,0 +1,5 @@
+PRODUCT_IDS = [
+    "7044312531102",
+]
+
+MODE = "product_ids"
