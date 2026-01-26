@@ -81,7 +81,7 @@ def main():
     print("🛑 Press Ctrl+C to stop")
     print("=" * 60)
     
-    interval = 60  # seconds
+    interval = 1800  # seconds
     
     try:
         while True:
