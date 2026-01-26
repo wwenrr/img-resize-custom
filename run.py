@@ -868,7 +868,7 @@ if __name__ == "__main__":
     generate_index_html()    
 
     # Select store first
-    shop_url, token = select_store(2)
+    shop_url, token = select_store(1)
     
     # Auto sync setting
     auto_sync = True
