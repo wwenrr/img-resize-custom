@@ -1,0 +1,663 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            .admin-link { text-align: center; margin: 20px 0; }
+            .admin-link a { 
+                display: inline-block;
+                padding: 10px 20px;
+                background: #5c6ac4;
+                color: white;
+                text-decoration: none;
+                border-radius: 4px;
+                font-weight: bold;
+            }
+            .admin-link a:hover { background: #4959bd; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <div class="admin-link"><a href="https://admin.shopify.com/store/japan-with-love/products/9199744221442?fromInventory=true" target="_blank">🔗 Open in Shopify Admin</a></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>44604643442946</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736302.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736302.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">200.89 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1204x1386</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643442946.webp" target="_blank">
+                            <img src="resized_images/44604643442946.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">51.40 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1042x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-149.50 KB</span><br>
+                        <span class="diff-good">(-74.4%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643475714</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_2_1762736302.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_2_1762736302.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">114.97 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643475714.webp" target="_blank">
+                            <img src="resized_images/44604643475714.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">28.71 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-86.27 KB</span><br>
+                        <span class="diff-good">(-75.0%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643508482</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_3_1762736302.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_3_1762736302.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">109.37 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643508482.webp" target="_blank">
+                            <img src="resized_images/44604643508482.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">33.83 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-75.53 KB</span><br>
+                        <span class="diff-good">(-69.1%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643541250</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_4_1762736303.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_4_1762736303.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">114.70 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643541250.webp" target="_blank">
+                            <img src="resized_images/44604643541250.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">32.97 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-81.72 KB</span><br>
+                        <span class="diff-good">(-71.3%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643574018</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_5_1762736303.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_5_1762736303.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">99.08 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643574018.webp" target="_blank">
+                            <img src="resized_images/44604643574018.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">53.89 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-45.20 KB</span><br>
+                        <span class="diff-good">(-45.6%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643606786</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_6_1762736304.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_6_1762736304.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">69.75 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643606786.webp" target="_blank">
+                            <img src="resized_images/44604643606786.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">29.70 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-40.05 KB</span><br>
+                        <span class="diff-good">(-57.4%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643639554</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_7_1762736304.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_7_1762736304.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">136.10 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643639554.webp" target="_blank">
+                            <img src="resized_images/44604643639554.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">44.62 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-91.48 KB</span><br>
+                        <span class="diff-good">(-67.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643672322</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_8_1762736304.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_8_1762736304.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">62.19 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643672322.webp" target="_blank">
+                            <img src="resized_images/44604643672322.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">26.61 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-35.58 KB</span><br>
+                        <span class="diff-good">(-57.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643705090</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_9_1762736304.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_9_1762736304.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">66.22 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643705090.webp" target="_blank">
+                            <img src="resized_images/44604643705090.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">23.25 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-42.96 KB</span><br>
+                        <span class="diff-good">(-64.9%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643737858</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_10_1762736305.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_10_1762736305.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">141.40 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643737858.webp" target="_blank">
+                            <img src="resized_images/44604643737858.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">43.56 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-97.84 KB</span><br>
+                        <span class="diff-good">(-69.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643770626</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_11_1762736305.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_11_1762736305.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">290.69 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1215x1418</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643770626.webp" target="_blank">
+                            <img src="resized_images/44604643770626.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">76.49 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1028x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-214.20 KB</span><br>
+                        <span class="diff-good">(-73.7%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604643803394</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_12_1762736306.webp?v=1762736429" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_12_1762736306.webp?v=1762736429" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">332.40 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1215x1417</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604643803394.webp" target="_blank">
+                            <img src="resized_images/44604643803394.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">97.53 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1029x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-234.88 KB</span><br>
+                        <span class="diff-good">(-70.7%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604644131074</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736334.webp?v=1762736436" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736334.webp?v=1762736436" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">201.40 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1204x1386</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604644131074.webp" target="_blank">
+                            <img src="resized_images/44604644131074.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">51.76 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1042x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-149.64 KB</span><br>
+                        <span class="diff-good">(-74.3%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604644163842</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736337.webp?v=1762736436" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736337.webp?v=1762736436" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">195.94 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1204x1386</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604644163842.webp" target="_blank">
+                            <img src="resized_images/44604644163842.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">51.92 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1042x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-144.02 KB</span><br>
+                        <span class="diff-good">(-73.5%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604644196610</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736339.webp?v=1762736436" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736339.webp?v=1762736436" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">62.44 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1428x994</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604644196610.webp" target="_blank">
+                            <img src="resized_images/44604644196610.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">27.31 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x835</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-35.13 KB</span><br>
+                        <span class="diff-good">(-56.3%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604644229378</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736342.webp?v=1762736437" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736342.webp?v=1762736437" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">201.67 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1204x1386</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604644229378.webp" target="_blank">
+                            <img src="resized_images/44604644229378.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">53.81 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1042x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-147.86 KB</span><br>
+                        <span class="diff-good">(-73.3%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604644262146</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736345.webp?v=1762736437" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736345.webp?v=1762736437" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">203.76 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">973x1430</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604644262146.webp" target="_blank">
+                            <img src="resized_images/44604644262146.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">39.52 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">817x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-164.24 KB</span><br>
+                        <span class="diff-good">(-80.6%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604644294914</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736351.webp?v=1762736438" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736351.webp?v=1762736438" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">205.68 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1204x1386</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604644294914.webp" target="_blank">
+                            <img src="resized_images/44604644294914.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">57.23 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1042x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-148.46 KB</span><br>
+                        <span class="diff-good">(-72.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604644327682</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736355.webp?v=1762736438" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736355.webp?v=1762736438" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">119.34 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">863x1469</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604644327682.webp" target="_blank">
+                            <img src="resized_images/44604644327682.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">27.65 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">705x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-91.68 KB</span><br>
+                        <span class="diff-good">(-76.8%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604644360450</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736357.webp?v=1762736439" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736357.webp?v=1762736439" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">201.85 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1204x1386</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604644360450.webp" target="_blank">
+                            <img src="resized_images/44604644360450.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">49.65 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1042x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-152.20 KB</span><br>
+                        <span class="diff-good">(-75.4%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604644393218</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736360.webp?v=1762736439" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736360.webp?v=1762736439" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">204.65 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1204x1386</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604644393218.webp" target="_blank">
+                            <img src="resized_images/44604644393218.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">54.12 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1042x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-150.53 KB</span><br>
+                        <span class="diff-good">(-73.6%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>44604644458754</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736364.webp?v=1762736440" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/esprique-bo-305-meltiserum-grow-powder-refill-beige-ochre-spf26-pa-hyaluronic-acid-blue-light-protection-by-esprique_1_1762736364.webp?v=1762736440" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">119.52 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">863x1469</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/44604644458754.webp" target="_blank">
+                            <img src="resized_images/44604644458754.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">27.59 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">705x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-91.92 KB</span><br>
+                        <span class="diff-good">(-76.9%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    
