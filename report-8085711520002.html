@@ -1,0 +1,187 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            .admin-link { text-align: center; margin: 20px 0; }
+            .admin-link a { 
+                display: inline-block;
+                padding: 10px 20px;
+                background: #5c6ac4;
+                color: white;
+                text-decoration: none;
+                border-radius: 4px;
+                font-weight: bold;
+            }
+            .admin-link a:hover { background: #4959bd; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <div class="admin-link"><a href="https://admin.shopify.com/store/japan-with-love/products/8085711520002?fromInventory=true" target="_blank">🔗 Open in Shopify Admin</a></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>39328084918530</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/products/Revlon-Colorstay-Pressed-Powder-N-820-1-X-1-Japan-Figure-4951445167246-0_b7b49212-51ea-402c-a607-ab76204722f2.jpg?v=1690780075" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/products/Revlon-Colorstay-Pressed-Powder-N-820-1-X-1-Japan-Figure-4951445167246-0_b7b49212-51ea-402c-a607-ab76204722f2.jpg?v=1690780075" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">41.68 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39328084918530.webp" target="_blank">
+                            <img src="resized_images/39328084918530.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">33.05 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-8.62 KB</span><br>
+                        <span class="diff-good">(-20.7%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39328084984066</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/products/Revlon-Colorstay-Pressed-Powder-N-820-1-X-1-Japan-Figure-4951445167246-1_bad29dee-93e7-4691-8666-30b198b757d0.jpg?v=1690780075" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/products/Revlon-Colorstay-Pressed-Powder-N-820-1-X-1-Japan-Figure-4951445167246-1_bad29dee-93e7-4691-8666-30b198b757d0.jpg?v=1690780075" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">73.48 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1000x1000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39328084984066.webp" target="_blank">
+                            <img src="resized_images/39328084984066.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">64.65 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1000x1000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-8.83 KB</span><br>
+                        <span class="diff-good">(-12.0%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39328085049602</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/products/Revlon-Colorstay-Pressed-Powder-N-820-1-X-1-Japan-Figure-4951445167246-2_54b61182-43de-442d-bdb8-23e5c0115bee.jpg?v=1690780075" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/products/Revlon-Colorstay-Pressed-Powder-N-820-1-X-1-Japan-Figure-4951445167246-2_54b61182-43de-442d-bdb8-23e5c0115bee.jpg?v=1690780075" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">140.34 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39328085049602.webp" target="_blank">
+                            <img src="resized_images/39328085049602.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">50.66 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-89.68 KB</span><br>
+                        <span class="diff-good">(-63.9%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39328085115138</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/products/Revlon-Colorstay-Pressed-Powder-N-820-1-X-1-Japan-Figure-4951445167246-3_e2983e67-d29c-4b09-8807-0cb5511a5aaa.jpg?v=1690780075" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/products/Revlon-Colorstay-Pressed-Powder-N-820-1-X-1-Japan-Figure-4951445167246-3_e2983e67-d29c-4b09-8807-0cb5511a5aaa.jpg?v=1690780075" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">72.02 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39328085115138.webp" target="_blank">
+                            <img src="resized_images/39328085115138.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">39.21 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-32.81 KB</span><br>
+                        <span class="diff-good">(-45.6%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39328085147906</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/products/Revlon-Colorstay-Pressed-Powder-N-820-1-X-1-Japan-Figure-4951445167246-4_5a6ef9a0-1cbf-416d-8006-7df053400ed1.jpg?v=1690780075" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/products/Revlon-Colorstay-Pressed-Powder-N-820-1-X-1-Japan-Figure-4951445167246-4_5a6ef9a0-1cbf-416d-8006-7df053400ed1.jpg?v=1690780075" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">198.34 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39328085147906.webp" target="_blank">
+                            <img src="resized_images/39328085147906.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">77.07 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-121.28 KB</span><br>
+                        <span class="diff-good">(-61.1%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    
