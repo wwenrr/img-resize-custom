@@ -1,0 +1,187 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            .admin-link { text-align: center; margin: 20px 0; }
+            .admin-link a { 
+                display: inline-block;
+                padding: 10px 20px;
+                background: #5c6ac4;
+                color: white;
+                text-decoration: none;
+                border-radius: 4px;
+                font-weight: bold;
+            }
+            .admin-link a:hover { background: #4959bd; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <div class="admin-link"><a href="https://admin.shopify.com/store/japan-with-love/products/8818184192258?fromInventory=true" target="_blank">🔗 Open in Shopify Admin</a></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>41838915682562</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/Tsuki-Usagi-Black--White-Ceramic-Coffee-Dripper-Filter-Set-4950697075545-0_f149cc19-bc6a-419a-84b6-0bf5e5879709.jpg?v=1728311005" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/Tsuki-Usagi-Black--White-Ceramic-Coffee-Dripper-Filter-Set-4950697075545-0_f149cc19-bc6a-419a-84b6-0bf5e5879709.jpg?v=1728311005" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">63.47 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1000x1000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/41838915682562.webp" target="_blank">
+                            <img src="resized_images/41838915682562.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">53.43 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1000x1000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-10.03 KB</span><br>
+                        <span class="diff-good">(-15.8%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>41838915715330</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/Tsuki-Usagi-Black--White-Ceramic-Coffee-Dripper-Filter-Set-4950697075545-1_a648c756-09b1-4efc-9a40-0e4791639d06.jpg?v=1728311005" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/Tsuki-Usagi-Black--White-Ceramic-Coffee-Dripper-Filter-Set-4950697075545-1_a648c756-09b1-4efc-9a40-0e4791639d06.jpg?v=1728311005" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">143.09 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/41838915715330.webp" target="_blank">
+                            <img src="resized_images/41838915715330.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">45.19 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x800</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-97.90 KB</span><br>
+                        <span class="diff-good">(-68.4%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>41838915748098</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/Tsuki-Usagi-Black--White-Ceramic-Coffee-Dripper-Filter-Set-4950697075545-2_3954d5ed-07d8-440b-bc0f-83b95a7243ab.jpg?v=1728311005" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/Tsuki-Usagi-Black--White-Ceramic-Coffee-Dripper-Filter-Set-4950697075545-2_3954d5ed-07d8-440b-bc0f-83b95a7243ab.jpg?v=1728311005" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">134.33 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1800x1800</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/41838915748098.webp" target="_blank">
+                            <img src="resized_images/41838915748098.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">32.83 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-101.50 KB</span><br>
+                        <span class="diff-good">(-75.6%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>41838915780866</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/Tsuki-Usagi-Black--White-Ceramic-Coffee-Dripper-Filter-Set-4950697075545-3_75bcb7d0-81f7-43ea-a478-257987642744.jpg?v=1728311005" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/Tsuki-Usagi-Black--White-Ceramic-Coffee-Dripper-Filter-Set-4950697075545-3_75bcb7d0-81f7-43ea-a478-257987642744.jpg?v=1728311005" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">158.88 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1800x1800</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/41838915780866.webp" target="_blank">
+                            <img src="resized_images/41838915780866.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">39.06 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-119.82 KB</span><br>
+                        <span class="diff-good">(-75.4%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>41838915813634</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/Tsuki-Usagi-Black--White-Ceramic-Coffee-Dripper-Filter-Set-4950697075545-4_41014e9f-4a76-4a18-859a-2ab22cf0cabe.jpg?v=1728311005" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0512/5429/6766/files/Tsuki-Usagi-Black--White-Ceramic-Coffee-Dripper-Filter-Set-4950697075545-4_41014e9f-4a76-4a18-859a-2ab22cf0cabe.jpg?v=1728311005" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">187.84 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1707x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/41838915813634.webp" target="_blank">
+                            <img src="resized_images/41838915813634.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">19.94 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">800x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-167.90 KB</span><br>
+                        <span class="diff-good">(-89.4%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    
